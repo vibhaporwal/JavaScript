@@ -13,12 +13,28 @@
 // i++;
 // }
 
-let num;
-do
+// let num;
+// do
+// {
+//     num=prompt("please enter any number",0);
+//     alert(num);
+// }
+
+
+// while(num<=100&&num);
+
+//switch -case
+let browser=prompt("Provide browser");
+if(browser==="Edge")
 {
-    num=prompt("please enter any number",0);
-    alert(num);
+    alert("Edge");
 }
 
+else if(browser=='Chrome'||browser=='Firefox'||browser=='Safari'||browser=='opera')
+{
+    alert("other");
+}
 
-while(num<=100&&num);
+else{
+    alert("else");
+}
